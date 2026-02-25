@@ -304,7 +304,7 @@ const App = () => {
                 PROJECT PORTFOLIO <ChevronRight size={22} />
               </a>
               <a
-                href="/docs/tharusha-cv.pdf"
+               href="/my-portfolio/docs/tharusha-cv.pdf"
                 download
                 className={`px-12 py-5 border font-black rounded-2xl transition-all flex items-center gap-3 ${darkMode
                   ? 'border-white/10 hover:bg-white/5'

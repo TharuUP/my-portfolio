@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to handle the smooth scrolling used in the nav */
+html {
+  scroll-behavior: smooth;
+}

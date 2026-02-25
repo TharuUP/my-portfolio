@@ -165,7 +165,7 @@ const App = () => {
       icon: <Camera size={24} />,
       hasLive: false,
       github: 'https://github.com/TharuUP/ANCS',
-      doc: '/docs/ancs-technical-manual.pdf'
+      doc: '/my-portfolio/docs/ancs-technical-manual.pdf'
     },
     {
       id: 'job-system',
@@ -182,7 +182,7 @@ const App = () => {
       icon: <Layers size={24} />,
       hasLive: false,
       github: 'https://github.com/TharuUP/JMS',
-      doc: '/docs/job-system-spec.pdf'
+      doc: '/my-portfolio/docs/job-system-spec.pdf'
     },
     {
       id: 'hotline',
@@ -237,7 +237,7 @@ const App = () => {
       hasLive: true,
       link: 'https://wd31.pythonanywhere.com/',
       github: 'https://github.com/TharuUP/SRHMS',
-      doc: '/docs/health-monitoring-docs.pdf'
+      doc: '/my-portfolio/docs/health-monitoring-docs.pdf'
     }
   ];
 
@@ -326,7 +326,7 @@ const App = () => {
               <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 rounded-[3rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-300"></div>
               <div className={`relative aspect-[3/4] w-full rounded-[2.8rem] border overflow-hidden ${darkMode ? 'bg-slate-900 border-white/10' : 'bg-slate-100 border-black/5'}`}>
                 <img
-                  src="/images/profile.jpg"
+                  src="/my-portfolio/images/profile.jpg"
                   alt="Tharusha Bimsara"
                   className="w-full h-full object-cover"
                 />

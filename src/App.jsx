@@ -222,6 +222,25 @@ const App = () => {
       doc: null
     },
     {
+      id: 'twin-scissors',
+      title: 'Twin Scissors – Premium Booking Platform',
+      category: 'Luxury UI + Booking System',
+      summary: 'Designed and deployed a high-end luxury barber booking platform with multi-step reservation flow, identity validation, and automated email confirmation via Formspree integration.',
+      highlights: [
+        'Multi-step booking system (Service → Date → Identity → Payment)',
+        'Strict input validation (Phone, Name, Email)',
+        'Automated email confirmation via Formspree',
+        'Responsive luxury UI with Tailwind + React',
+        'GitHub Pages production deployment'
+      ],
+      tech: ['React', 'Tailwind CSS', 'Formspree API', 'GitHub Pages'],
+      icon: <Globe size={24} />,
+      hasLive: true,
+      link: 'https://tharuup.github.io/Twin-Sicissors/',
+      github: 'https://github.com/TharuUP/Twin-Sicissors',
+      doc: null
+    },
+    {
       id: 'health',
       title: 'Smart Remote Health Monitoring',
       category: 'IoT + Cloud Healthcare Platform',
@@ -304,7 +323,11 @@ const App = () => {
                 PROJECT PORTFOLIO <ChevronRight size={22} />
               </a>
               <a
-               href="/my-portfolio/docs/tharusha-cv.pdf"
+<<<<<<< HEAD
+                href="/my-portfolio/docs/tharusha-cv.pdf"
+=======
+                href="/my-portfolio/docs/tharusha-cv.pdf"
+>>>>>>> 501a7cb (fix docs path)
                 download
                 className={`px-12 py-5 border font-black rounded-2xl transition-all flex items-center gap-3 ${darkMode
                   ? 'border-white/10 hover:bg-white/5'
